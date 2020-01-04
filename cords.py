@@ -4,6 +4,8 @@ m = 5
 n = 4
 
 EVENS_SET = set()
+#(define)
+#EVENS_TRIE = ???
 
 def main():
     pass
@@ -14,7 +16,7 @@ def mainRec(inPath=[]):
     for t in getOptions(path):
         mainRec(inPath[:] + [t])
 
-#Get applicable evens for path
+#Get applicable evens for path (from tree/trie)
 #see if any path + tails would be even (Add to evens)
 #return any that would be odd
 def getOptions(path=[]):
